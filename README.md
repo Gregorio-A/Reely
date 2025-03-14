@@ -28,12 +28,13 @@ O **Reely** é uma plataforma inovadora que conecta fãs de filmes, séries, des
 - **CSS3:** Estilização e design adaptativo para diferentes dispositivos.
 - **Ferramentas de Desenvolvimento:** Qualquer editor de código (ex.: VS Code, Sublime Text).
 
-## Como será a estrutura do Projeto
+## Como será +/- estrutura do Projeto
 
 ```plaintext
 Reely-Landing-Page/
 ├── index.html        # Página principal da landing page
 ├── css/
 │   └── styles.css    # Arquivo de estilos CSS
-├── img/
+├── img/              # Arquivos de imagens dentro da pasta img/
+│   └── logo.png
 └── README.md         # Este arquivo
