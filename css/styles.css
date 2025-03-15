@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(27, 4, 48);
+}
+
+.logo {
+    width: 500px;
+    display: block;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.T1 {
+    padding-top: 20px;
+    font-size: 20pt;
+    text-align: center;
+    font-family: poppins;
+    color: aliceblue;
+}
