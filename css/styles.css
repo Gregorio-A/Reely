@@ -1,5 +1,9 @@
 body {
-    background-color: rgb(27, 4, 48);
+    background-image: linear-gradient(rgb(27, 4, 48), rgb(76, 16, 132));
+    margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;   /* Para eviar repetição do gradiente */
+    background-attachment: fixed;   /* Isso garante que o gradiente de fundo coloque o preenchimento sobre toda a tela */
 }
 
 .logo {
@@ -7,12 +11,37 @@ body {
     display: block;
     padding-top: 50px;
     margin: auto;
+    transition: all 1s;
+}
+
+.logo:hover {
+    transform: translateY(5px);
 }
 
 .T1 {
     padding-top: 20px;
+    padding-bottom: 30px;
     font-size: 20pt;
     text-align: center;
     font-family: poppins;
     color: aliceblue;
+    transition: all 1s;
+}
+
+.T1:hover {
+    color: rgb(255, 115, 0);
+    transform: translateY(20px);
+}
+
+.retangulo {
+    margin-top: 20px;
+    background-color: rgb(245, 220, 241);
+    width: 50%px;
+    height: 500px;
+    transition: all 1s;
+}
+
+.retangulo:hover {
+    transform: scaleY(110%);
+    background-color: rgb(229, 176, 245);
 }
