@@ -6,20 +6,31 @@ body {
     background-attachment: fixed;   /* Isso garante que o gradiente de fundo coloque o preenchimento sobre toda a tela */
 }
 
-.logo {
-    width: 500px;
-    display: block;
-    padding-top: 50px;
-    margin: auto;
-    transition: all 1s;
+header.site_header {
+    padding-top: 10px;
+    background-color: #13031f;
+    height: 79px;
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 7000;
 }
 
-.logo:hover {
-    transform: translateY(5px);
+.main {
+    width: 1400px;
+    display: block;
+    margin: auto;
+}
+
+.header_logo {
+    width: 100px;
+    padding: 15px;
+    padding-left: 40px;
 }
 
 .T1 {
-    padding-top: 20px;
+    padding-top: 100px;
     padding-bottom: 30px;
     font-size: 20pt;
     text-align: center;
@@ -34,9 +45,10 @@ body {
 }
 
 .retangulo {
-    margin-top: 20px;
+    margin: 0;
+    display: block;
     background-color: rgb(245, 220, 241);
-    width: 50%px;
+    width: 100%;
     height: 500px;
     transition: all 1s;
 }
