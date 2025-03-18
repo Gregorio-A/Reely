@@ -6,54 +6,108 @@ body {
     background-attachment: fixed;   /* Isso garante que o gradiente de fundo coloque o preenchimento sobre toda a tela */
 }
 
-header.site_header {
+header#site_header {
     padding-top: 10px;
-    background-color: #13031f;
-    height: 79px;
+    padding-bottom: 10px;
+    background-color: rgba(85, 10, 143, 0.9);
     overflow: visible;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 7000;
+    z-index: 7000; /*  */
 }
 
-.main {
-    width: 1400px;
-    display: block;
-    margin: auto;
-}
-
-.header_logo {
+#header_logo {
     width: 100px;
-    padding: 15px;
     padding-left: 40px;
+    transform: translateY(3px);
 }
 
-.T1 {
-    padding-top: 100px;
-    padding-bottom: 30px;
-    font-size: 20pt;
+#pad-right {
+    float: right;
+    width: 40px;
+    height: 1px;
+}
+
+#button-top-header {
+    float: right;
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #9e1ef4;
+    border: none;
+    color: #FFFFFF;
     text-align: center;
-    font-family: poppins;
-    color: aliceblue;
-    transition: all 1s;
+    font-size: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
-.T1:hover {
-    color: rgb(255, 115, 0);
-    transform: translateY(20px);
-}
-
-.retangulo {
-    margin: 0;
+#retangulo-1 {
+    position: relative;
+    margin: auto;
     display: block;
-    background-color: rgb(245, 220, 241);
-    width: 100%;
-    height: 500px;
+    width: auto;
+    height: 700px;
     transition: all 1s;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
-.retangulo:hover {
-    transform: scaleY(110%);
-    background-color: rgb(229, 176, 245);
+#retangulo-1 img {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+#text-type-1 {
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: auto;
+    color: aliceblue;
+    font-family: poppins;
+    font-size: 20px;
+    text-align: left;
+}
+
+#button-connect {
+    border-radius: 10px;
+    background-color: #9e1ef4;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#retangulo-2 {
+    position: relative;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+    transition: all 1s;
+    background-color: black;
+}
+
+#text-type-2 {
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: auto;
+    color: aliceblue;
+    font-family: poppins;
+    font-size: 20px;
+    text-align: left;
 }
