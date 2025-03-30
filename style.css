@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-top {
+    position: fixed;
+    width: 100%;
+    background-color: #261c40;
+    z-index: 100;
+}
+
+.header-area { /* Para definir a area do header e centralizar as informações*/
+    width: 70%;
+    height: 65px;
+    margin: 0 auto;
+}
+
+.header-left {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-right {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button-connect {
+    text-decoration: none;
+    background-color: rgb(212, 255, 147);
+    color: rgb(7, 112, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 16px;
+    transition: all 200ms;
+}
+
+.button-connect:hover {
+    background-color: rgb(165, 255, 30);
+    color: rgb(7, 103, 0);
+}
+
+.button-connect:active {
+    background-color: #220a60;
+    color: aliceblue;
+}
+
+.button-news {
+    text-decoration: none;
+    background-color: #ff9c1e;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 16px;
+    transition: all 200ms;
+    margin-left: 50px;
+}
+
+.button-news:hover {
+    background-color: rgb(73, 0, 103);
+    color: rgb(255, 255, 255);
+}
+
+.button-news:active {
+    background-color: #220a60;
+    color: aliceblue;
+}
+
+main {
+    padding-top: 65px; /* Para acrescentar um espaço entre a primeira seção e o header */
+}
+
+.first-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-left-buttons {
+    margin-top: 20px;
+}
+
+.content-left {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #5755a7;
+}
+.content-right{
+    width: 100%;
+}
+
+.img-banner {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+
+@media (max-width: 800px) {
+    .first-section {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .content-left {
+        margin-top: 80px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        color: #5755a7;
+    }
+
+    .logo-reely-banner {
+        position: absolute;
+        height: 140px;
+        transform: translateX(-170px);
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .banner-text1 {
+        margin-top: 150px;
+        background-color: #ffffff;
+    }
+    .banner-text2 {
+        background-color: #ffffff;
+    }
+
+    .img-banner {
+        position: absolute;
+        transform: translateY(-447px);
+        height: 470px;
+        z-index: -1;
+    }
+
+}
+
+
+.main-posts {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background-color: #e7ddff;
+}
+
+.posts{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+@media (max-width: 800px) {
+    .posts {
+        flex-direction: column;
+    }
+}
+
+.post {
+    position: relative;
+    padding: 10px;
+    overflow: hidden; /*Isso garante que o gradietne não ultrapasse o limite do fundo*/
+    transition: all 1s;
+}
+
+.conteudo-post {
+    z-index: 1;
+}
+
+.movie-thumbnail {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    transform: translateY();
+    object-fit: cover;
+    transition: all 2s;
+    z-index: 0;
+}
+
+.movie-thumbnail:hover {
+    height: 300px;
+    border-radius: 0;
+}
+
+.post-usuario {
+    position: relative;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.user-pic {
+    position: absolute;
+    border-radius: 25px;
+}
+
+.user-name {
+    font-size: 15pt;
+    padding-left: 60px;
+}
+
+.post-time {
+    padding-left: 60px;
+    font-weight: 300;
+    font-size: 10pt;
+}
+
+.conteudo-post {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    font-weight: 300;
+    background-color: #ffffff;
+    color: #060f60;
+}

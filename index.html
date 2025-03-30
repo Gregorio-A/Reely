@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reely</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER COM A LOGO DO REELY -->
+    <header>
+        <div class="header-top">
+            <div class="header-area">
+                <div class="header-left">
+                    <img src="img/logo-reely/horizontal_logo_reely_t_color_for_dark.svg" alt="Reely Logo" class="logo" style="width: 100px;">
+                </div>
+                <div class="header-right">
+                    <a href="#" class="button-connect">Conectar</a>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+
+        <!-- SEÇÃO PRINCIPAL COM LOGO E BOTÃO DE CHAMADA PARA AÇÃO -->
+        <section class="first-section">
+            <div class="content-left">
+                <img class="logo-reely-banner" src="img/logo-reely/horizontal_logo_reely_t_color_for_light.svg"  alt="Reely Logo" class="logo" style="width: 600px;">
+                <h2 class="banner-text1">A rede social perfeita para quem ama filmes e séries.</h2>
+                <p class="banner-text2">Junte-se à comunidade e acompanhe suas produções favoritas.</p>
+                <div class="content-left-buttons">
+                    <a href="#login" class="button-connect">Conectar</a>
+                    <a href="#news" class="button-news">Noticias</a>
+                </div>
+            </div>
+
+            <div class="content-right">
+                <img class="img-banner" src="img/banner/banner.jpg" alt="Imagem do cinema" height="600px">
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE POSTS -->
+        <section>
+            <div class="main-posts">
+                <h2>Principais posts...</h2>
+                <div class="posts">
+                    <div class="post">
+                        <img class="movie-thumbnail" src="https://image.tmdb.org/t/p/original/t0mabA2l3KE9Ai350BEKz61Ltor.jpg">
+                        <div class="post-usuario">
+                            <img class="user-pic" src="img/profile_picture/1c.jpg" alt="Mariana Silva" width="50px">
+                            <p class="user-name">Mariana Silva</p>
+                            <p class="post-time">1h atrás...</p>
+                        </div>
+                        <p class="conteudo-post">Slc, essa Branca de Neve tá diferente! Rachel Zegler arrasou DEMAIS 💅 Efeitos top e fotografia impecável. Zero defeitos! Fiquei completamente obcecada 😭</p>
+                        <form action="#" method="post">
+                            <input type="text" name="resposta" placeholder=" " required />
+                            <input type="submit" value="Comentar"/>
+                        </form>
+                    </div>
+
+                    <div class="post"">
+                        <img class="movie-thumbnail" src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mbYQLLluS651W89jO7MOZcLSCUw.jpg">
+                        <div class="post-usuario">
+                            <img class="user-pic" src="img/profile_picture/2c.jpg" alt="Lucas Mendes" width="50px">
+                            <p class="user-name">Lucas Mendes</p>
+                            <p class="post-time">1h atrás...</p>
+                        </div>
+                        <p class="conteudo-post">Avatar 2 é SURREAL mano!! Fui ver sem hype e saí CHOCADO 🤯 3h de filme e nem vi o tempo passar. James Cameron não brinca em serviço mesmo. Tô em choque ainda kkkk</p>
+                        <form action="#" method="post">
+                            <input type="text" name="resposta" placeholder=" " required />
+                            <input type="submit" value="Comentar"/>
+                        </form>
+                    </div>
+
+                    <div class="post">
+                        <img class="movie-thumbnail" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cX0K1q16iQbbddGFuXKOZAuqy2D.jpg">
+                        <div class="post-usuario">
+                            <img class="user-pic" src="img/profile_picture/3c.jpg" alt="Gabriel Costa" width="50px">
+                            <p class="user-name">Gabriel Costa</p>
+                            <p class="post-time">1h atrás...</p>
+                        </div>
+                        <p class="conteudo-post">O filme do Minecraft é loko dmsss!!! Tinha certeza q ia flopar mas entregaram tudo 🔥 Jason Momoa como Steve foi a coisa mais aleatória E perfeita ever. Eu tô MUITO viciado!</p>
+                        <form action="#" method="post">
+                            <input type="text" name="resposta" placeholder=" " required />
+                            <input type="submit" value="Comentar"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="usuario-escreva-seu-post">
+
+            <div class="usuario">
+                <img src="img/usuario_logo.png" alt="Usuário">
+                <p>Usuário</p>
+            </div>
+            <input type="text" name="input-post" class="input-post" placeholder="E aí, qual filme você assistiu? Conta pra gente... 🎬✨">
+            <img src="img/logo.png" alt="Reely Logo" class="logo" style="width: 100px;">
+        </div>
+
+        <!-- SEÇÃO COMUNIDADE (Imagem na esquerda, texto na direita) -->
+        <section class="secao-alternada">
+            <div class="container esquerda">
+                <div class="imagem-secao">
+                    <img src="img/comunidade.jpg" alt="Comunidade de fãs de cinema">
+                </div>
+                <div class="texto-secao">
+                    <h2>Encontre sua galera cinéfila</h2>
+                    <p>No Reely, você pode seguir pessoas que curtem os mesmos filmes que você. Compartilhe sua opinião sobre os lançamentos e veja o que a galera tá falando.</p>
+                    <p>A comunidade Reely é o lugar perfeito pra quem não aguenta mais spoilers aleatórios ou críticas chatas. Aqui é papo reto sobre o que você realmente achou do filme, sem mimimi!</p>
+                    <a href="#" class="botao">Explorar comunidade</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO AVALIAÇÕES (Imagem na direita, texto na esquerda) -->
+        <section class="secao-alternada">
+            <div class="container direita">
+                <div class="texto-secao">
+                    <h2>Avalie do seu jeito</h2>
+                    <p>Chega de estrelinhas! No Reely, você pode avaliar filmes usando emojis, memes e expressões que realmente mostram o que você sentiu.</p>
+                    <p>Ficou obcecado? Odiou com todas as forças? Saiu do cinema confuso? Temos emojis pra todas as suas reações cinematográficas!</p>
+                    <a href="#" class="botao">Ver avaliações</a>
+                </div>
+                <div class="imagem-secao">
+                    <img src="img/avaliacoes.jpg" alt="Sistema de avaliações Reely">
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DESCOBERTA (Imagem na esquerda, texto na direita) -->
+        <section class="secao-alternada">
+            <div class="container esquerda">
+                <div class="imagem-secao">
+                    <img src="img/descubra.jpg" alt="Descubra novos filmes">
+                </div>
+                <div class="texto-secao">
+                    <h2>Descubra seu próximo filme favorito</h2>
+                    <p>O algoritmo do Reely não é como os outros. A gente realmente entende seu gosto e sugere coisas que você vai amar, não só o que está bombando.</p>
+                    <p>Descubra pérolas escondidas, filmes cult e lançamentos que combinam com o que você já curte. Nada de recomendações aleatórias!</p>
+                    <a href="#" class="botao">Descubrir filmes</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: Vitor Francisco, Murilo Gregório, Cauan Casaroti, Jefferson Felipe e Vitória Isabelly</p>
+        <p>UNIP - Ciências da Computação - 2025</p>
+    </footer>
+</body>
+</html>
