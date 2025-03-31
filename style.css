@@ -44,6 +44,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 16px;
+    font-size: 15pt;
     transition: all 200ms;
 }
 
@@ -66,6 +67,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 16px;
+    font-size: 15pt;
     transition: all 200ms;
     margin-left: 50px;
 }
@@ -149,7 +151,6 @@ main {
 
 }
 
-
 .main-posts {
     padding-top: 20px;
     padding-left: 30px;
@@ -158,10 +159,16 @@ main {
     background-color: #e7ddff;
 }
 
+.main-posts-title {
+    color: #5755a7;
+}
+
 .posts{
+    margin-top: 15px;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    width: 100%;
+    gap: 10px;
 }
 
 @media (max-width: 800px) {
@@ -172,9 +179,12 @@ main {
 
 .post {
     position: relative;
+    width: 300px;
+    margin: 0 auto;
     padding: 10px;
     overflow: hidden; /*Isso garante que o gradietne não ultrapasse o limite do fundo*/
     transition: all 1s;
+    background-color: #ffffff;
 }
 
 .conteudo-post {
@@ -199,23 +209,32 @@ main {
 
 .post-usuario {
     position: relative;
-    background-color: #ffffff;
+    background-color: #f0f0f0;
     padding: 5px;
+    display: flex;
+    height: auto;
     border-radius: 30px;
+    overflow: hidden;
 }
 
 .user-pic {
-    position: absolute;
     border-radius: 25px;
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+}
+
+.user-pic:hover {
+    width: 100px;
+    height: 100px;
 }
 
 .user-name {
     font-size: 15pt;
-    padding-left: 60px;
+    padding-left: 10px;
 }
 
 .post-time {
-    padding-left: 60px;
     font-weight: 300;
     font-size: 10pt;
 }
@@ -228,4 +247,34 @@ main {
     font-weight: 300;
     background-color: #ffffff;
     color: #060f60;
+}
+
+.form-comment {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.comment {
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    background-color: #f7f7f7;
+}
+
+.send-button {
+    background-color: #060f60;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.send-button:hover {
+    background-color: #5755a7;
 }
