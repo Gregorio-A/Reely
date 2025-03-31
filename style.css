@@ -399,4 +399,46 @@ footer {
     .usuario-escreva-seu-post {
         flex-direction: column;
     }
+
+    .container-esquerda {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .container-direita {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-secao-alternada{
+        display: none;
+    }
+
+    .texto-secao {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .titulo-secao {
+        font-size: 30px;
+    }
+    
+    .paragrafo-secao {
+        font-size: 15px;
+        font-weight: 100;
+        padding-bottom: 20px;
+    }
+
+    .botao {
+        text-decoration: none;
+        background-color: #ff9c1e;
+        color: white;
+        padding: 5px 20px;
+        border-radius: 16px;
+        font-size: 13pt;
+        transition: all 200ms;
+    }
+    
 }
