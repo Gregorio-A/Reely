@@ -129,8 +129,6 @@ main {
     object-fit: cover;
 }
 
-
-
 .main-posts {
     padding: 20px 30px;
     background-color: #e7ddff;
@@ -258,6 +256,7 @@ main {
 
 .usuario-escreva-seu-post .usuario {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 10px;
 }
@@ -292,9 +291,7 @@ main {
 }
 
 .img-secao-alternada{
-    width: 500px;
-    height: 500px;
-    padding: 20px;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -323,7 +320,7 @@ main {
     color: white;
     padding: 5px 20px;
     border-radius: 16px;
-    font-size: 30pt;
+    font-size: 15pt;
     transition: all 200ms;
 }
 
@@ -437,7 +434,7 @@ footer {
         color: white;
         padding: 5px 20px;
         border-radius: 16px;
-        font-size: 13pt;
+        font-size: 12pt;
         transition: all 200ms;
     }
     
