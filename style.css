@@ -276,6 +276,67 @@ main {
     font-size: 14pt;
 }
 
+.secao-alternada {
+    color: #d2d5ee;
+    padding: 100px;
+}
+
+.container-esquerda {
+    display: flex;
+    justify-content: center;
+}
+
+.container-direita {
+    display: flex;
+    justify-content: center;
+}
+
+.img-secao-alternada{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.imagem-secao {
+    width: 50%;
+}
+
+.texto-secao {
+    width: 100%;
+    padding: 20px;
+}
+
+.titulo-secao {
+    font-size: 60px;
+}
+
+.paragrafo-secao {
+    font-size: 30px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: #ff9c1e;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 16px;
+    font-size: 30pt;
+    transition: all 200ms;
+}
+
+.botao:hover {
+    background-color: rgb(73, 0, 103);
+    color: rgb(255, 255, 255);
+}
+
+.botao:active {
+    background-color: #220a60;
+    color: aliceblue;
+}
+
 footer {
     background-color: #261c40;
     color: white;
